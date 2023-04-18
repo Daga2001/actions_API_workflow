@@ -23,7 +23,6 @@ class TestUtils(unittest.TestCase):
         #Agregado por Mauricio
         self.assertEqual(utils.cubic(4),64)
         self.assertNotEqual(utils.cubic(-4),64)
-
     def test_say_hello(self):
         self.assertEqual(utils.say_hello("Geekflare"), "Hello, Geekflare")
         self.assertEqual(utils.say_hello("Chandan"), "Hello, Chandan")
