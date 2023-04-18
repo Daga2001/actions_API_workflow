@@ -2,7 +2,7 @@ import unittest
 
 import utils
 
-
+# clase para hacer las pruebas
 class TestUtils(unittest.TestCase):
     def test_is_prime(self):
         self.assertFalse(utils.is_prime(4))

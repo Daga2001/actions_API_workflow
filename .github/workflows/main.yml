@@ -1,7 +1,7 @@
 name: Fast API docker build push
 on:
   push:
-    branches: [ main ]
+    branches: [ develop ]
   pull_request:
     branches: [ main ]
 
